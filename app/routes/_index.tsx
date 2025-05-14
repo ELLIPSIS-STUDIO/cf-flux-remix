@@ -31,15 +31,15 @@ export const loader: LoaderFunction = async ({ context }) => {
 
 export default function Index() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-600 via-pink-500 to-red-500">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-3xl shadow-2xl p-10">
-        <h1 className="text-4xl font-extrabold text-white mb-8 text-center">CF Flux Remix</h1>
+        <h1 className="text-4xl font-extrabold text-gray-800 mb-8 text-center">CF Flux Remix</h1>
         <nav>
           <ul className="space-y-4">
             <li>
               <Link
                 to="/generate-image"
-                className="block w-full text-center px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-indigo-500 to-indigo-700 rounded-xl transition transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                className="block w-full text-center px-6 py-3 text-lg font-semibold text-gray-800 bg-white border border-gray-300 rounded-xl transition transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-400"
               >
                 如意AI
               </Link>
